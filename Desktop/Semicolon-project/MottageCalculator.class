@@ -1,20 +1,0 @@
-Êþº¾   A D
-       java/lang/Object <init> ()V   java/util/Scanner	 
- 
-   
-  java/lang/System in Ljava/io/InputStream;
-      (Ljava/io/InputStream;)V	 
-    out Ljava/io/PrintStream;  Enter principal amount :
-       java/io/PrintStream  println (Ljava/lang/String;)V
-      !  nextInt ()I # Enter anual interest rate : % Enter duration in a year :@(      @Y      
- + ,  - . / java/lang/Math pow (DD)D 1 Monthly payment is %.2f
- 3 4  5 6 7 java/lang/Double  valueOf (D)Ljava/lang/Double;
-  9 : ; printf <(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;  = MottageCalculator Code LineNumberTable main ([Ljava/lang/String;)V 
-SourceFile MottageCalculator.java ! <           >        *· ±    ?        	 @ A  >   î      ’»  Y² 	· L² ¶ +¶ ‡I² "¶ +¶ ‡9² $¶ +¶ ‡9 &k9 (o9
-(
-k &o9
- &o9c9¸ *9g9k9o9² 0½ Y¸ 2S¶ 8W±    ?   J     
-      
- ! 
- ( 
- 0  7  ?  G  Q  Y  _  h  n  u   | " ‘ #  B    C
