@@ -1,0 +1,19 @@
+function higherOrderFunction(){
+
+    console.log("I am higher function");
+
+    function lowerFunction(){
+        console.log("I am inner function");
+
+        function name(params){
+            console.log("I am inner nner function");
+        }
+        name("I am an inner inner function");
+    }
+
+lowerFunction();
+
+}
+
+higherOrderFunction();
+

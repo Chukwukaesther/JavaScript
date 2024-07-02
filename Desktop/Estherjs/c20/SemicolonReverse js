@@ -1,0 +1,13 @@
+let arrayOfReverse = []
+
+const reverse = (words) => { 
+        for(let count = words.length -1; count >= 0; count--){
+           arrayOfReverse.push(words[count])
+         }
+return arrayOfReverse
+
+}
+console.log(reverse("semicolon"))
+
+
+
